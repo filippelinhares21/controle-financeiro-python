@@ -1,4 +1,4 @@
-# 💰📊 Sistema de Controle Financeiro em Python
+# 💰📊 Sistema de Controle Financeiro Pessoal em Python
 
 Projeto em Python para controle de receitas e despesas pessoais, com foco em **análise de períodos personalizados**. Permite registrar valores, datas e descrições, e gerar relatórios completos de saldo e médias em qualquer intervalo definido pelo usuário.
 
