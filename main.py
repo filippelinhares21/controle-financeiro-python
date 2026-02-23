@@ -16,7 +16,7 @@ def pedir_data(mensagem):
 def pedir_valor(mensagem):
     while True:
         valor_input = input(mensagem).strip()
-        regex_brasil = r'^\d{1,3}(\.\d{3})*(,\d{1,2})?$'
+        regex_brasil = r'^(\d+|\d{1,3}(\.\d{3})+)(,\d{1,2})?$'
         regex_internacional = r'^\d+(\.\d{1,2})?$'
     
         if re.match(regex_brasil, valor_input):
